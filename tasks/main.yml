@@ -44,6 +44,7 @@
   apt:
     name: '{{ item }}'
     state: 'present'
+    update_cache: True
     install_recommends: False
   with_items: [ 'apt-transport-https', 'openssl', 'ca-certificates' ]
 
