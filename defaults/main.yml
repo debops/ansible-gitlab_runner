@@ -115,6 +115,13 @@ gitlab_runner__concurrent: '{{ ansible_processor_vcpus
                                else "1" }}'
 
                                                                    # ]]]
+# .. envvar:: gitlab_runner__metrics [[[
+#
+# Activate Gitlab metrics server, .
+gitlab_runner__metrics_bind: '0.0.0.0:9252'
+gitlab_runner__metrics: False
+
+                                                                   # ]]]
 # .. envvar:: gitlab_runner__domain [[[
 #
 # The default domain used in different places of the role.
