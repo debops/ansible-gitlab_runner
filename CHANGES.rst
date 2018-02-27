@@ -14,7 +14,18 @@ The current role maintainer_ is drybjed.
 `debops.gitlab_runner master`_ - unreleased
 -------------------------------------------
 
-.. _debops.gitlab_runner master: https://github.com/debops/ansible-gitlab_runner/compare/v0.3.0...master
+.. _debops.gitlab_runner master: https://github.com/debops/ansible-gitlab_runner/compare/v0.3.1...master
+
+
+`debops.gitlab_runner v0.3.1`_ - 2018-02-27
+-------------------------------------------
+
+.. _debops.gitlab_runner v0.3.1: https://github.com/debops/ansible-gitlab_runner/compare/v0.3.0...v0.3.1
+
+Changed
+~~~~~~~
+
+- Change the APT package name to ``gitlab-runner``. [oussemos]
 
 
 `debops.gitlab_runner v0.3.0`_ - 2017-10-13
