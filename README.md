@@ -30,7 +30,7 @@ ansible-galaxy install debops.gitlab_runner
 ### Documentation
 
 More information about `debops.gitlab_runner` can be found in the
-[official debops.gitlab_runner documentation](http://docs.debops.org/en/latest/ansible/roles/ansible-gitlab_runner/docs/).
+[official debops.gitlab_runner documentation](https://docs.debops.org/en/master/ansible/roles/gitlab_runner/index.html).
 
 
 
